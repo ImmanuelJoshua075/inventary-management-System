@@ -13,6 +13,8 @@ module.exports = app => {
     app.post('/user/logout',User.logout);
 
     app.get('/api/dashboard',User.dashboard) // dashboard
+
+    app.get('/hello',User.hello);
 }
 
 

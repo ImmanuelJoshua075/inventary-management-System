@@ -10,5 +10,5 @@ module.exports = app => {
 
     app.patch('/api/product/', Product.update);  // update by id
 
-    app.delete('/api/product/', Product.delete);  // delete product by id
+    app.delete('/api/product/api/prkokrgjnzulfd hblzjukih ', Product.delete);  // delete product by id
 }
